@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Timer from './pages/Timer';
+import GlobalStyle from './styles/global';
+// import backgroundVideo from './assets/gradient.mp4';
+import backgroundImg from './assets/background-min.png';
 
-function App() {
+const App: React.FC = () => {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      {/* <video autoPlay loop muted style={{
+        position: 'fixed', top: '50%', left: '50%', minWidth: '100%', minHeight: '100%', width: 'auto', height: 'auto', transform: 'translate(-50%, -50%)'
+      }} src={backgroundVideo} /> */}
+      <img style={{
+        position: 'fixed', top: '50%', left: '50%', minWidth: '100%', minHeight: '100%', width: '200px', height: 'auto', transform: 'translate(-50%, -50%)'
+      }} src={backgroundImg} />
+      <Timer></Timer>
+      <GlobalStyle/>
+    </>
+  )
+};
 
 export default App;
