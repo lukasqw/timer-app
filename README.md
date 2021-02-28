@@ -12,6 +12,7 @@
 
 
 <p align="center">
+  <a href="#computer-demo">Demo</a> •
   <a href="#white_check_mark-features">Features</a> •
   <a href="#zap-technologies-and-libs">Technologies</a> •
   <a href="#arrow_forward-how-to-run">How to run</a> •
@@ -21,6 +22,9 @@
 <p align="center">
     <img src="https://github.com/lukasqw/timer-app/blob/master/imgs/countdown.png?raw=true">
 </p>
+
+## :computer: Demo
+- [Live demo](https://timer-app-peach.vercel.app/)
 
 ## :white_check_mark: Features
 
