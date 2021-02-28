@@ -15,7 +15,7 @@
   <a href="#white_check_mark-features">Features</a> •
   <a href="#zap-technologies-and-libs">Technologies</a> •
   <a href="#arrow_forward-how-to-run">How to run</a> •
-  <a href="camera-screenshots">Screenshots</a>
+  <a href="#camera-screenshots">Screenshots</a>
 </p>
 
 <p align="center">

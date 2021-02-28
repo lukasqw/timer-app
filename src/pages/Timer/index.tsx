@@ -4,7 +4,7 @@ import { MdLoop } from 'react-icons/md';
 
 import { Container, GlassBox, GlassCircle, SelectType, ContainerTimer, Buttons, GlassSelect, StepContainer } from './styles';
 import GlassButton from '../../components/GlassButton';
-
+import audio from '../../assets/notification.mp3';
 interface ITime {
     milliseconds: number;
     seconds: number;
@@ -171,8 +171,8 @@ const Timer: React.FC = () => {
         if(type === 'countdown'){
             let diff = getDiffTime();
             setTime(formatTime(diff));
-
             if(diff === 0) {
+                new Audio(audio).play();
                 setTargetTime(undefined);
                 if(timerLoop){
                     startTimer(null, firstTime);
